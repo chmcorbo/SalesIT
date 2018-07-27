@@ -1,0 +1,5 @@
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\caSalesIT\obj\Debug\caSalesIT.csprojResolveAssemblyReference.cache
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\caSalesIT\bin\Debug\caSalesIT.exe
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\caSalesIT\bin\Debug\caSalesIT.pdb
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\caSalesIT\obj\Debug\caSalesIT.exe
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\caSalesIT\obj\Debug\caSalesIT.pdb

@@ -1,0 +1,8 @@
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.exe
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.pdb
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csprojResolveAssemblyReference.cache
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.Form1.resources
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.Properties.Resources.resources
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csproj.GenerateResource.Cache
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.exe
+C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.pdb
