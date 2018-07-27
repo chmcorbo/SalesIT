@@ -2,3 +2,7 @@ C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\SalesIT.Base\bin\D
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\SalesIT.Base\bin\Debug\SalesIT.Base.pdb
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\SalesIT.Base\obj\Debug\SalesIT.Base.dll
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\SalesIT.Base\obj\Debug\SalesIT.Base.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\bin\Debug\SalesIT.Base.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\bin\Debug\SalesIT.Base.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\obj\Debug\SalesIT.Base.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\obj\Debug\SalesIT.Base.pdb

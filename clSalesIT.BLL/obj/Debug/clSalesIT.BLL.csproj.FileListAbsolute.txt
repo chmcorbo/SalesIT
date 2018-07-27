@@ -3,3 +3,8 @@ C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\clSalesIT.BLL\bin\
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\clSalesIT.BLL\obj\Debug\clSalesIT.BLL.csprojResolveAssemblyReference.cache
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\clSalesIT.BLL\obj\Debug\clSalesIT.BLL.dll
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\clSalesIT.BLL\obj\Debug\clSalesIT.BLL.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.BLL\bin\Debug\clSalesIT.BLL.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.BLL\bin\Debug\clSalesIT.BLL.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.BLL\obj\Debug\clSalesIT.BLL.csprojResolveAssemblyReference.cache
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.BLL\obj\Debug\clSalesIT.BLL.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.BLL\obj\Debug\clSalesIT.BLL.pdb

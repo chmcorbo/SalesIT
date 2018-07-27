@@ -2,3 +2,7 @@ C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\clSalesIT.Dominio\
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\clSalesIT.Dominio\bin\Debug\clSalesIT.Dominio.pdb
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\clSalesIT.Dominio\obj\Debug\clSalesIT.Dominio.dll
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\clSalesIT.Dominio\obj\Debug\clSalesIT.Dominio.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Dominio\bin\Debug\clSalesIT.Dominio.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Dominio\bin\Debug\clSalesIT.Dominio.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Dominio\obj\Debug\clSalesIT.Dominio.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Dominio\obj\Debug\clSalesIT.Dominio.pdb
