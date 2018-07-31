@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace caSalesIT.Base
+namespace clSalesIT.Base
 {
-    class PessoaJuridica : Pessoa
+    public class PessoaJuridica : Pessoa
     {
         public String CNPJ { get; set; }
         public String InscricaoEstadual { get; set; }

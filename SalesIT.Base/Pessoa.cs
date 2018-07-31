@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace caSalesIT.Base
+namespace clSalesIT.Base
 {
-    class Pessoa : ICloneable
+    public class Pessoa : ICloneable
     {
         public String Nome { get;  set; }
         public String Endereco { get; set; }

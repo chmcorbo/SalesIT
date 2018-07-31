@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using caSalesIT.Base;
+using clSalesIT.Base;
 
 
-namespace caSalesIT.Dominio
+namespace clSalesIT.Model
 {
-    class ClientePessoaJuridica : PessoaJuridica
+    public class ClientePessoaJuridica : PessoaJuridica
     {
         public Int32 Codigo { get; set; }
         public DateTime DataCadastro { get; set; }

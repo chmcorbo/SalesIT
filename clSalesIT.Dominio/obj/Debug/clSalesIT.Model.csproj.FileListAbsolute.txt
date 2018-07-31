@@ -1,0 +1,7 @@
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Dominio\obj\Debug\clSalesIT.Model.csprojResolveAssemblyReference.cache
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Dominio\bin\Debug\clSalesIT.Modelo.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Dominio\bin\Debug\clSalesIT.Modelo.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Dominio\bin\Debug\clSalesIT.Base.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Dominio\bin\Debug\clSalesIT.Base.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Dominio\obj\Debug\clSalesIT.Modelo.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Dominio\obj\Debug\clSalesIT.Modelo.pdb

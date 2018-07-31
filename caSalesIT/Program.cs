@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Collections;
 using System.Linq;
 using System.Text;
-using caSalesIT.Dominio;
-using caSalesIT.DAL;
+using clSalesIT.Model;
+using clSalesIT.DAL;
 
-namespace caSalesIT
+namespace clSalesIT
 {
     class Program
     {

@@ -39,7 +39,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DALClientePessoaFisica.cs" />
+    <Compile Include="DALClientePessoaJuridica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\clSalesIT.Dominio\clSalesIT.Model.csproj">
+      <Project>{c33467e9-9238-4275-bc3e-ba08be7a216a}</Project>
+      <Name>clSalesIT.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SalesIT.Base\clSalesIT.Base.csproj">
+      <Project>{9fdf8629-a70f-4383-b7cf-29d73f36df62}</Project>
+      <Name>clSalesIT.Base</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

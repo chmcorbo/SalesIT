@@ -44,16 +44,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Config.cs" />
+    <Compile Include="FrmConsClientePessoaJuridica.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmConsClientePessoaJuridica.Designer.cs">
+      <DependentUpon>FrmConsClientePessoaJuridica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsClientePessoaFisica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsClientePessoaFisica.Designer.cs">
+      <DependentUpon>FrmConsClientePessoaFisica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmConsClientePessoaJuridica.resx">
+      <DependentUpon>FrmConsClientePessoaJuridica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsClientePessoaFisica.resx">
+      <DependentUpon>FrmConsClientePessoaFisica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

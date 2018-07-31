@@ -8,3 +8,7 @@ C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.DAL\bin\Debug\clSalesIT.DAL.pdb
 C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.DAL\obj\Debug\clSalesIT.DAL.csprojResolveAssemblyReference.cache
 C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.DAL\obj\Debug\clSalesIT.DAL.dll
 C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.DAL\obj\Debug\clSalesIT.DAL.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.DAL\bin\Debug\clSalesIT.Base.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.DAL\bin\Debug\clSalesIT.Modelo.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.DAL\bin\Debug\clSalesIT.Modelo.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.DAL\bin\Debug\clSalesIT.Base.pdb

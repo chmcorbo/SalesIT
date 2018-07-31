@@ -9,25 +9,19 @@ using System.Windows.Forms;
 
 namespace wfSalesIT
 {
-    public partial class Form1 : Form
+    public partial class FrmConsClientePessoaFisica : Form
     {
-        public Form1()
+        public FrmConsClientePessoaFisica()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnConsultar_Click(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Docinho");
-          
-        }
-
-        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnFechar_Click(object sender, EventArgs e)
         {
             this.Close();
         }

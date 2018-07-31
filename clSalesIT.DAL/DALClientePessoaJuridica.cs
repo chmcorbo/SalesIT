@@ -2,23 +2,47 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using caSalesIT.Dominio;
+using clSalesIT.Model;
 
-namespace caSalesIT.DAL
+namespace clSalesIT.DAL
 {
-    class DALClientePessoaJuridica
+    public class DALClientePessoaJuridica
     {        
         List<ClientePessoaJuridica> _lstClientes;
 
         public DALClientePessoaJuridica()
         {
             _lstClientes = new List<ClientePessoaJuridica>();
+            ClientePessoaJuridica _cliente;
+
+            _cliente = new ClientePessoaJuridica();
+            _cliente.Codigo = 1;
+            _cliente.Nome = "AVGE";
         }
 
         public ClientePessoaJuridica ObterPorCodigo(Int32 pCodigo)
         {
-            ClientePessoaJuridica _cliente = _lstClientes.Where(c => c.Codigo == pCodigo).FirstOrDefault();
+            ClientePessoaJuridica _cliente = (from cliente in _lstClientes
+                                              where cliente.Codigo == pCodigo
+                                              select cliente) as ClientePessoaJuridica;
+
             return _cliente.Clone() as ClientePessoaJuridica;
+        }
+
+        public List<ClientePessoaJuridica> ListarPorNome(String pNome)
+        {
+            List<ClientePessoaJuridica> _lista = (from cliente in _lstClientes
+                                                  where cliente.Nome.Contains(pNome)
+                                                  select cliente).ToList<ClientePessoaJuridica>();
+            return _lista;
+        }
+
+        public ClientePessoaJuridica ObterPorCNPJ(String pCNPJ)
+        {
+             ClientePessoaJuridica _cliente = (from cliente in _lstClientes
+                                              where cliente.CNPJ == pCNPJ
+                                              select cliente) as ClientePessoaJuridica;
+            return _cliente;
         }
 
         public void Incluir(ClientePessoaJuridica pCliente)

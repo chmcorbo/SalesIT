@@ -3,27 +3,28 @@ using System.Collections.Generic;
 using System.Collections;
 using System.Linq;
 using System.Text;
-using caSalesIT.Dominio;
+using clSalesIT.Model;
 
-namespace caSalesIT.DAL
+namespace clSalesIT.DAL
 {
-    class DALClientePessoaFisica
+    public class DALClientePessoaFisica
     {
-        private ArrayList _clientesPessoaFisica;
+        private ArrayList _ListaClientePessoaFisica;
 
         public DALClientePessoaFisica()
         {
-            _clientesPessoaFisica = new ArrayList();
+            _ListaClientePessoaFisica = new ArrayList();
         }
 
         public void Incluir(ClientePessoaFisica pCliente)
         {
-            _clientesPessoaFisica.Add(pCliente);
+            _ListaClientePessoaFisica.Add(pCliente);
         }
 
         public void Alterar(ClientePessoaFisica pCliente)
         {
             ClientePessoaFisica _clienteAlterado = ObterPorCodigo(pCliente.Codigo);
+
             _clienteAlterado.Nome = pCliente.Nome;
             _clienteAlterado.Endereco = pCliente.Endereco;
             _clienteAlterado.Bairro = pCliente.Bairro;
@@ -37,19 +38,20 @@ namespace caSalesIT.DAL
         public void Excluir(Int32 pCodigo)
         {
             ClientePessoaFisica _clienteExcluir = ObterPorCodigo(pCodigo);
-            _clientesPessoaFisica.Remove(_clienteExcluir);
+            _ListaClientePessoaFisica.Remove(_clienteExcluir);
         }
 
         public ClientePessoaFisica ObterPorCodigo(Int32 pCodigo)
         {
             ClientePessoaFisica _cliente = new ClientePessoaFisica();
             Boolean _clienteEncontrado = false;
-            foreach (ClientePessoaFisica c in _clientesPessoaFisica)
+            foreach (ClientePessoaFisica c in _ListaClientePessoaFisica)
             {
                 if (c.Codigo==pCodigo)
                 {
                     _cliente = c.Clone() as ClientePessoaFisica;
                     _clienteEncontrado = true;
+                    break;
                 }
             }
             if (_clienteEncontrado)
@@ -60,7 +62,7 @@ namespace caSalesIT.DAL
 
         public ArrayList Listar()
         {
-            return _clientesPessoaFisica;
+            return _ListaClientePessoaFisica;
         }
     }
 }

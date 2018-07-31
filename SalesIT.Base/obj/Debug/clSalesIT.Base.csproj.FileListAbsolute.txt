@@ -1,0 +1,4 @@
+C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\bin\Debug\clSalesIT.Base.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\bin\Debug\clSalesIT.Base.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\obj\Debug\clSalesIT.Base.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\obj\Debug\clSalesIT.Base.pdb

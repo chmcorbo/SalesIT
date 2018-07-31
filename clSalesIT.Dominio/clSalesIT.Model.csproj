@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9FDF8629-A70F-4383-B7CF-29D73F36DF62}</ProjectGuid>
+    <ProjectGuid>{C33467E9-9238-4275-BC3E-BA08BE7A216A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SalesIT.Base</RootNamespace>
-    <AssemblyName>SalesIT.Base</AssemblyName>
+    <RootNamespace>clSalesIT.Modelo</RootNamespace>
+    <AssemblyName>clSalesIT.Modelo</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,7 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClientePessoaFisica.cs" />
+    <Compile Include="ClientePessoaJuridica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SalesIT.Base\clSalesIT.Base.csproj">
+      <Project>{9fdf8629-a70f-4383-b7cf-29d73f36df62}</Project>
+      <Name>clSalesIT.Base</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
