@@ -2,3 +2,8 @@ C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\bin\Debug\clSalesIT.Base.dll
 C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\bin\Debug\clSalesIT.Base.pdb
 C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\obj\Debug\clSalesIT.Base.dll
 C:\Users\hcorbo\Git\Projetos\SalesIT\SalesIT.Base\obj\Debug\clSalesIT.Base.pdb
+C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\SalesIT.Base\bin\Debug\clSalesIT.Base.dll
+C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\SalesIT.Base\bin\Debug\clSalesIT.Base.pdb
+C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\SalesIT.Base\obj\Debug\clSalesIT.Base.csprojResolveAssemblyReference.cache
+C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\SalesIT.Base\obj\Debug\clSalesIT.Base.dll
+C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\SalesIT.Base\obj\Debug\clSalesIT.Base.pdb

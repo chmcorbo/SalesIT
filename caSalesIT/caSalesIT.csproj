@@ -49,7 +49,7 @@
       <Project>{b8e22cb5-02de-4119-8aa2-f682ee1d5d61}</Project>
       <Name>clSalesIT.DAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\clSalesIT.Dominio\clSalesIT.Model.csproj">
+    <ProjectReference Include="..\clSalesIT.Model\clSalesIT.Model.csproj">
       <Project>{c33467e9-9238-4275-bc3e-ba08be7a216a}</Project>
       <Name>clSalesIT.Model</Name>
     </ProjectReference>
