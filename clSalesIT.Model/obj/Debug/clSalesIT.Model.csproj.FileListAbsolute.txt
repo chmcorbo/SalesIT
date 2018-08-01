@@ -12,3 +12,10 @@ C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\clSalesIT.Model\bin\Debug\clSale
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\clSalesIT.Model\obj\Debug\clSalesIT.Model.csprojResolveAssemblyReference.cache
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\clSalesIT.Model\obj\Debug\clSalesIT.Modelo.dll
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\clSalesIT.Model\obj\Debug\clSalesIT.Modelo.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Model\bin\Debug\clSalesIT.Modelo.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Model\bin\Debug\clSalesIT.Modelo.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Model\bin\Debug\clSalesIT.Base.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Model\bin\Debug\clSalesIT.Base.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Model\obj\Debug\clSalesIT.Model.csprojResolveAssemblyReference.cache
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Model\obj\Debug\clSalesIT.Modelo.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Model\obj\Debug\clSalesIT.Modelo.pdb
