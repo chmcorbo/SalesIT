@@ -6,16 +6,6 @@ C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\obj\Debu
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csproj.GenerateResource.Cache
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.exe
 C:\Users\hcorbo\Documents\Visual Studio 2013\Projects\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.pdb
-C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.exe
-C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.pdb
-C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csprojResolveAssemblyReference.cache
-C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.Properties.Resources.resources
-C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csproj.GenerateResource.Cache
-C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.exe
-C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.pdb
-C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.FrmPrincipal.resources
-C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.FrmConsClientePessoaJuridica.resources
-C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.FrmConsClientePessoaFisica.resources
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.exe
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.pdb
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csprojResolveAssemblyReference.cache
@@ -26,3 +16,18 @@ C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.Pr
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csproj.GenerateResource.Cache
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.exe
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.exe
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\clSalesIT.Base.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\clSalesIT.DAL.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\clSalesIT.Modelo.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\clSalesIT.DAL.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\clSalesIT.Modelo.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\clSalesIT.Base.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csprojResolveAssemblyReference.cache
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.FrmConsClientePessoaJuridica.resources
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.FrmPrincipal.resources
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.Properties.Resources.resources
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csproj.GenerateResource.Cache
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.exe
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.pdb

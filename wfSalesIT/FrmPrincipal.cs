@@ -23,8 +23,8 @@ namespace wfSalesIT
 
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmConsClientePessoaFisica _frmConsultaClientePessoaFisica = new FrmConsClientePessoaFisica();
-            _frmConsultaClientePessoaFisica.ShowDialog();
+            FrmConsClientePessoaJuridica _frmConsClientePessoaJuridica = new FrmConsClientePessoaJuridica();
+            _frmConsClientePessoaJuridica.ShowDialog();
         }
 
         private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)

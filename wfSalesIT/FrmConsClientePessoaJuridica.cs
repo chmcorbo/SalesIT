@@ -6,39 +6,69 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using clSalesIT.DAL;
+using clSalesIT.Model;
 
 namespace wfSalesIT
 {
     public partial class FrmConsClientePessoaJuridica : Form
     {
+        private DALClientePessoaJuridica _dalClientePessoaFisica;
+        private List<ClientePessoaJuridica> _listaClientes;
+
+
         public FrmConsClientePessoaJuridica()
         {
             InitializeComponent();
+            _dalClientePessoaFisica = new DALClientePessoaJuridica();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnFechar_Click(object sender, EventArgs e)
         {
-            String x, y;
-            x = "BCC";
-            y = x;
-            y = "Claro";
-            label1.Text = x;
-            label2.Text = y;
+            this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnBuscar_Click(object sender, EventArgs e)
         {
-            Config _configX = new Config();
-            Config _configY = _configX;
+            if (cbTipoFiltro.SelectedItem==null)
+            {
+                MessageBox.Show("Informe o tipo de filtro desejado.", "Entrada inválida", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (cbTipoFiltro.SelectedItem.ToString()=="Nome")
+            {
+                String _nome = txtConteudo.Text;
+                _listaClientes = _dalClientePessoaFisica.ListarPorNome(_nome);
+                dtgLista.DataSource = _listaClientes;
+            }
+            else if (cbTipoFiltro.SelectedItem.ToString() == "Código")
+            {
+                try
+                {
+                    Int32 _codigo = Convert.ToInt32(txtConteudo.Text);
+                    _listaClientes = new List<ClientePessoaJuridica>();
+                    _listaClientes.Add(_dalClientePessoaFisica.ObterPorCodigo(_codigo));
+                    dtgLista.DataSource = _listaClientes;
+                }
+                catch (FormatException ex)
+                {
+                    MessageBox.Show("O código precisa conter números.", "Entrada inválida",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro durante a execução da consulta. "+ex.Message, "Entrada inválida",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-            _configX.Nome = "BCC";
-            // _configY = _configX;
-            _configY.Nome = "Claro";
-
-            _configX.Nome = "Net";
-            label1.Text = _configX.Nome;
-            label2.Text = _configY.Nome;
-
+                }
+            }
+            else if (cbTipoFiltro.SelectedItem.ToString() == "CNPJ")
+            {
+                String _cnpj = txtConteudo.Text;
+                _listaClientes = new List<ClientePessoaJuridica>();
+                _listaClientes.Add(_dalClientePessoaFisica.ObterPorCNPJ(_cnpj));
+                dtgLista.DataSource = _listaClientes;
+            }
         }
     }
 }

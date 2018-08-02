@@ -8,16 +8,50 @@ namespace clSalesIT.DAL
 {
     public class DALClientePessoaJuridica
     {        
-        List<ClientePessoaJuridica> _lstClientes;
+        private List<ClientePessoaJuridica> _lstClientes;
 
         public DALClientePessoaJuridica()
         {
             _lstClientes = new List<ClientePessoaJuridica>();
             ClientePessoaJuridica _cliente;
+            // Inclusão de clientes
 
             _cliente = new ClientePessoaJuridica();
             _cliente.Codigo = 1;
-            _cliente.Nome = "AVGE";
+            _cliente.Nome = "Contábil Rio";
+            _cliente.CNPJ = "0001";
+            _cliente.Estado = "RJ";
+            _cliente.DataCadastro = Convert.ToDateTime("15/01/2017");
+            _lstClientes.Add(_cliente);
+
+            _cliente = new ClientePessoaJuridica();
+            _cliente.Codigo = 2;
+            _cliente.Nome = "Audit Master Assessoria Jurídica";
+            _cliente.Estado = "RJ";
+            _cliente.DataCadastro = Convert.ToDateTime("23/02/2017");
+            _lstClientes.Add(_cliente);
+
+            _cliente = new ClientePessoaJuridica();
+            _cliente.Codigo = 3;
+            _cliente.Nome = "RioKasa Empreendimentos imobilitários";
+            _cliente.Estado = "SP";
+            _cliente.DataCadastro = Convert.ToDateTime("13/04/2015");
+            _lstClientes.Add(_cliente);
+
+            _cliente = new ClientePessoaJuridica();
+            _cliente.Codigo = 4;
+            _cliente.Nome = "GAX Locadora de geradores";
+            _cliente.Estado = "RJ";
+            _cliente.DataCadastro = Convert.ToDateTime("25/03/2017");
+            _lstClientes.Add(_cliente);
+
+            _cliente = new ClientePessoaJuridica();
+            _cliente.Codigo = 5;
+            _cliente.Nome = "Licitus Consultoria e Empreendimentos";
+            _cliente.Estado = "SP";
+            _cliente.DataCadastro = Convert.ToDateTime("18/05/2016");
+            _lstClientes.Add(_cliente);
+
         }
 
         public ClientePessoaJuridica ObterPorCodigo(Int32 pCodigo)
@@ -25,7 +59,7 @@ namespace clSalesIT.DAL
             ClientePessoaJuridica _cliente = (from cliente in _lstClientes
                                               where cliente.Codigo == pCodigo
                                               select cliente) as ClientePessoaJuridica;
-
+            
             return _cliente.Clone() as ClientePessoaJuridica;
         }
 
