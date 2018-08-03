@@ -14,3 +14,15 @@ C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\caSalesIT\bin\Debug\clSalesIT.Mo
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\caSalesIT\bin\Debug\clSalesIT.DAL.pdb
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\caSalesIT\bin\Debug\clSalesIT.Modelo.pdb
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\caSalesIT\bin\Debug\clSalesIT.Base.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\bin\Debug\caSalesIT.exe.config
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\bin\Debug\caSalesIT.exe
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\bin\Debug\caSalesIT.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\bin\Debug\clSalesIT.Base.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\bin\Debug\clSalesIT.DAL.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\bin\Debug\clSalesIT.Modelo.dll
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\bin\Debug\clSalesIT.DAL.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\bin\Debug\clSalesIT.Modelo.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\bin\Debug\clSalesIT.Base.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\obj\Debug\caSalesIT.csprojResolveAssemblyReference.cache
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\obj\Debug\caSalesIT.exe
+C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\obj\Debug\caSalesIT.pdb

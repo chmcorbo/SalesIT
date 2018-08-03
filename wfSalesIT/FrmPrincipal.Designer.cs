@@ -61,7 +61,6 @@
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             this.clientesToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.clientesToolStripMenuItem.Text = "Cliente pessoa física";
-            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 

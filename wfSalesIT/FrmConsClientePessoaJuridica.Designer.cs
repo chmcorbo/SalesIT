@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.cbTipoFiltro = new System.Windows.Forms.ComboBox();
             this.txtConteudo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -35,11 +36,18 @@
             this.dtgLista = new System.Windows.Forms.DataGridView();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.clientePessoaJuridicaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.codigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cNPJDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.estadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dtgLista)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientePessoaJuridicaBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // cbTipoFiltro
             // 
+            this.cbTipoFiltro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTipoFiltro.FormattingEnabled = true;
             this.cbTipoFiltro.Items.AddRange(new object[] {
             "Nome",
@@ -77,9 +85,19 @@
             // 
             // dtgLista
             // 
+            this.dtgLista.AllowUserToAddRows = false;
+            this.dtgLista.AllowUserToDeleteRows = false;
+            this.dtgLista.AutoGenerateColumns = false;
             this.dtgLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgLista.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.codigoDataGridViewTextBoxColumn,
+            this.nomeDataGridViewTextBoxColumn,
+            this.cNPJDataGridViewTextBoxColumn,
+            this.estadoDataGridViewTextBoxColumn});
+            this.dtgLista.DataSource = this.clientePessoaJuridicaBindingSource;
             this.dtgLista.Location = new System.Drawing.Point(22, 67);
             this.dtgLista.Name = "dtgLista";
+            this.dtgLista.ReadOnly = true;
             this.dtgLista.Size = new System.Drawing.Size(611, 326);
             this.dtgLista.TabIndex = 4;
             // 
@@ -103,6 +121,42 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
+            // clientePessoaJuridicaBindingSource
+            // 
+            this.clientePessoaJuridicaBindingSource.DataSource = typeof(clSalesIT.Model.ClientePessoaJuridica);
+            // 
+            // codigoDataGridViewTextBoxColumn
+            // 
+            this.codigoDataGridViewTextBoxColumn.DataPropertyName = "Codigo";
+            this.codigoDataGridViewTextBoxColumn.HeaderText = "Codigo";
+            this.codigoDataGridViewTextBoxColumn.Name = "codigoDataGridViewTextBoxColumn";
+            this.codigoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.codigoDataGridViewTextBoxColumn.Width = 50;
+            // 
+            // nomeDataGridViewTextBoxColumn
+            // 
+            this.nomeDataGridViewTextBoxColumn.DataPropertyName = "Nome";
+            this.nomeDataGridViewTextBoxColumn.HeaderText = "Nome";
+            this.nomeDataGridViewTextBoxColumn.Name = "nomeDataGridViewTextBoxColumn";
+            this.nomeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.nomeDataGridViewTextBoxColumn.Width = 280;
+            // 
+            // cNPJDataGridViewTextBoxColumn
+            // 
+            this.cNPJDataGridViewTextBoxColumn.DataPropertyName = "CNPJ";
+            this.cNPJDataGridViewTextBoxColumn.HeaderText = "CNPJ";
+            this.cNPJDataGridViewTextBoxColumn.Name = "cNPJDataGridViewTextBoxColumn";
+            this.cNPJDataGridViewTextBoxColumn.ReadOnly = true;
+            this.cNPJDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // estadoDataGridViewTextBoxColumn
+            // 
+            this.estadoDataGridViewTextBoxColumn.DataPropertyName = "Estado";
+            this.estadoDataGridViewTextBoxColumn.HeaderText = "Estado";
+            this.estadoDataGridViewTextBoxColumn.Name = "estadoDataGridViewTextBoxColumn";
+            this.estadoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.estadoDataGridViewTextBoxColumn.Width = 50;
+            // 
             // FrmConsClientePessoaJuridica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -115,9 +169,15 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtConteudo);
             this.Controls.Add(this.cbTipoFiltro);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmConsClientePessoaJuridica";
-            this.Text = "FrmConsClientePessoaFisica";
+            this.ShowInTaskbar = false;
+            this.Text = "Consulta cliente pessoa jurídica";
+            this.Load += new System.EventHandler(this.FrmConsClientePessoaJuridica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgLista)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientePessoaJuridicaBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,5 +192,10 @@
         private System.Windows.Forms.DataGridView dtgLista;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnFechar;
+        private System.Windows.Forms.BindingSource clientePessoaJuridicaBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn codigoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cNPJDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn estadoDataGridViewTextBoxColumn;
     }
 }

@@ -16,6 +16,7 @@ C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.Pr
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csproj.GenerateResource.Cache
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.exe
 C:\Users\chmei\Documents\GitHub\SalesIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.pdb
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.exe.config
 C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.exe
 C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.pdb
 C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\bin\Debug\clSalesIT.Base.dll

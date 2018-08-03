@@ -21,11 +21,6 @@ namespace wfSalesIT
             this.Close();
         }
 
-        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FrmConsClientePessoaJuridica _frmConsClientePessoaJuridica = new FrmConsClientePessoaJuridica();
-            _frmConsClientePessoaJuridica.ShowDialog();
-        }
 
         private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
         {
