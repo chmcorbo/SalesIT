@@ -32,3 +32,19 @@ C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.Properties.Re
 C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csproj.GenerateResource.Cache
 C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.exe
 C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\bin\Debug\wfSalesIT.exe.config
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.exe
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\bin\Debug\wfSalesIT.exe
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\bin\Debug\wfSalesIT.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\bin\Debug\clSalesIT.Base.dll
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\bin\Debug\clSalesIT.DAL.dll
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\bin\Debug\clSalesIT.Modelo.dll
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\bin\Debug\clSalesIT.DAL.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\bin\Debug\clSalesIT.Modelo.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\bin\Debug\clSalesIT.Base.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.csprojResolveAssemblyReference.cache
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.FrmConsClientePessoaJuridica.resources
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.FrmPrincipal.resources
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.Properties.Resources.resources
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.csproj.GenerateResource.Cache

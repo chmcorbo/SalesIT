@@ -9,12 +9,12 @@ namespace clSalesIT.DAL
 {
     public class DALClientePessoaFisica
     {
-        private ArrayList _ListaClientePessoaFisica;
+        private List<ClientePessoaFisica> _lstClientes;
 
         public DALClientePessoaFisica()
         {
+            _lstClientes = new List<ClientePessoaFisica>();
             ClientePessoaFisica _cliente;
-            _ListaClientePessoaFisica = new ArrayList();
 
             _cliente = new ClientePessoaFisica();
             _cliente.Codigo = 1;
@@ -24,7 +24,7 @@ namespace clSalesIT.DAL
             _cliente.Estado = "RJ";
             _cliente.Data_Nascimento = Convert.ToDateTime("09/02/1989");
             _cliente.DataCadastro = Convert.ToDateTime("13/01/2018"); ;
-            Incluir(_cliente);
+            _lstClientes.Add(_cliente);
 
             _cliente = new ClientePessoaFisica();
             _cliente.Codigo = 2;
@@ -34,7 +34,7 @@ namespace clSalesIT.DAL
             _cliente.Estado = "RJ";
             _cliente.Data_Nascimento = Convert.ToDateTime("21/04/1992 ");
             _cliente.DataCadastro = Convert.ToDateTime("13/01/2018"); ;
-            Incluir(_cliente);
+            _lstClientes.Add(_cliente);
 
             _cliente = new ClientePessoaFisica();
             _cliente.Codigo = 3;
@@ -44,7 +44,7 @@ namespace clSalesIT.DAL
             _cliente.Estado = "RJ";
             _cliente.Data_Nascimento = Convert.ToDateTime("26/08/1996");
             _cliente.DataCadastro = Convert.ToDateTime("14/02/2018"); ;
-            Incluir(_cliente);
+            _lstClientes.Add(_cliente);
 
             _cliente = new ClientePessoaFisica();
             _cliente.Codigo = 4;
@@ -54,7 +54,7 @@ namespace clSalesIT.DAL
             _cliente.Estado = "RJ";
             _cliente.Data_Nascimento = Convert.ToDateTime("24/04/1985");
             _cliente.DataCadastro = Convert.ToDateTime("08/02/2017"); ;
-            Incluir(_cliente);
+            _lstClientes.Add(_cliente);
 
             _cliente = new ClientePessoaFisica();
             _cliente.Codigo = 5;
@@ -64,7 +64,7 @@ namespace clSalesIT.DAL
             _cliente.Estado = "RJ";
             _cliente.Data_Nascimento = Convert.ToDateTime("18/08/1990");
             _cliente.DataCadastro = Convert.ToDateTime("14/04/2017"); ;
-            Incluir(_cliente);
+            _lstClientes.Add(_cliente);
 
             _cliente = new ClientePessoaFisica();
             _cliente.Codigo = 6;
@@ -74,13 +74,12 @@ namespace clSalesIT.DAL
             _cliente.Estado = "RJ";
             _cliente.Data_Nascimento = Convert.ToDateTime("27/07/1985");
             _cliente.DataCadastro = Convert.ToDateTime("11/07/2017"); ;
-            Incluir(_cliente);
+            _lstClientes.Add(_cliente);
         }
 
         public void Incluir(ClientePessoaFisica pCliente)
         {
-            _ListaClientePessoaFisica.Add(pCliente);
-            _ListaClientePessoaFisica.Add(_ListaClientePessoaFisica.Count);
+            _lstClientes.Add(pCliente);
         }
 
         public void Alterar(ClientePessoaFisica pCliente)
@@ -100,45 +99,34 @@ namespace clSalesIT.DAL
         public void Excluir(Int32 pCodigo)
         {
             ClientePessoaFisica _clienteExcluir = ObterPorCodigo(pCodigo);
-            _ListaClientePessoaFisica.Remove(_clienteExcluir);
+            _lstClientes.Remove(_clienteExcluir);
+
         }
 
-        public ArrayList ListarPorNome(String pNome)
+        public List<ClientePessoaFisica> ListarPorNome(String pNome)
         {
-            ArrayList _lista = new ArrayList();
-            foreach (ClientePessoaFisica c in _ListaClientePessoaFisica)
-            {
-                if (c.Nome.Contains(pNome))
-                {
-                    _lista.Add(c.Clone() as ClientePessoaFisica);
-                }
-            }
+            List<ClientePessoaFisica> _lista =  from cliente in _lstClientes
+                                                where cliente.Nome.Contains(pNome)
+                                                select cliente) .ToList<ClientePessoaFisica>();
+
             return _lista;
+
         }
 
         public ClientePessoaFisica ObterPorCodigo(Int32 pCodigo)
         {
-            ClientePessoaFisica _cliente = new ClientePessoaFisica();
-            Boolean _clienteEncontrado = false;
-            foreach (ClientePessoaFisica c in _ListaClientePessoaFisica)
-            {
-                if (c.Codigo == pCodigo)
-                {
-                    _cliente = c.Clone() as ClientePessoaFisica;
-                    _clienteEncontrado = true;
-                    break;
-                }
-            }
-            if (_clienteEncontrado)
-                return _cliente;
-            else
-                return null;
+            ClientePessoaFisica _cliente = null;
+            _cliente = (from cliente in _lstClientes
+            where (cliente.Codigo == pCodigo)
+            select cliente).FirstOrDefault();
+
+            return _cliente;
         }
 
 
-        public ArrayList Listar()
+        public List<ClientePessoaFisica> Listar()
         {
-            return _ListaClientePessoaFisica;
+            return _lstCliente;
         }
     }
 }

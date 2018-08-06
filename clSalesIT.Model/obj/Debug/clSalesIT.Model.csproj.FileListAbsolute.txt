@@ -19,3 +19,10 @@ C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Model\bin\Debug\clSalesIT.Base.pd
 C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Model\obj\Debug\clSalesIT.Model.csprojResolveAssemblyReference.cache
 C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Model\obj\Debug\clSalesIT.Modelo.dll
 C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.Model\obj\Debug\clSalesIT.Modelo.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.Model\bin\Debug\clSalesIT.Modelo.dll
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.Model\bin\Debug\clSalesIT.Modelo.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.Model\bin\Debug\clSalesIT.Base.dll
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.Model\bin\Debug\clSalesIT.Base.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.Model\obj\Debug\clSalesIT.Model.csprojResolveAssemblyReference.cache
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.Model\obj\Debug\clSalesIT.Modelo.dll
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.Model\obj\Debug\clSalesIT.Modelo.pdb
