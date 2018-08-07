@@ -105,9 +105,9 @@ namespace clSalesIT.DAL
 
         public List<ClientePessoaFisica> ListarPorNome(String pNome)
         {
-            List<ClientePessoaFisica> _lista =  from cliente in _lstClientes
+            List<ClientePessoaFisica> _lista =  (from cliente in _lstClientes
                                                 where cliente.Nome.Contains(pNome)
-                                                select cliente) .ToList<ClientePessoaFisica>();
+                                                select cliente).ToList<ClientePessoaFisica>();
 
             return _lista;
 
@@ -126,7 +126,16 @@ namespace clSalesIT.DAL
 
         public List<ClientePessoaFisica> Listar()
         {
-            return _lstCliente;
+            return _lstClientes;
         }
+
+        public List<ClientePessoaFisica> ObterPorCPF(String pCPF)
+        {
+            _lstClientes = (from cliente in _lstClientes
+                            where cliente.CPF.Contains(pCPF)
+                            select cliente).ToList<ClientePessoaFisica>();
+            return _lstClientes;
+        }
+
     }
 }
