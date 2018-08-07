@@ -34,9 +34,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dtgLista = new System.Windows.Forms.DataGridView();
+            this.clientePessoaJuridicaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
-            this.clientePessoaJuridicaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.codigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cNPJDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -101,6 +101,10 @@
             this.dtgLista.Size = new System.Drawing.Size(611, 326);
             this.dtgLista.TabIndex = 4;
             // 
+            // clientePessoaJuridicaBindingSource
+            // 
+            this.clientePessoaJuridicaBindingSource.DataSource = typeof(clSalesIT.Model.ClientePessoaJuridica);
+            // 
             // btnBuscar
             // 
             this.btnBuscar.Location = new System.Drawing.Point(558, 39);
@@ -120,10 +124,6 @@
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
-            // 
-            // clientePessoaJuridicaBindingSource
-            // 
-            this.clientePessoaJuridicaBindingSource.DataSource = typeof(clSalesIT.Model.ClientePessoaJuridica);
             // 
             // codigoDataGridViewTextBoxColumn
             // 

@@ -48,3 +48,4 @@ C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.Frm
 C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.FrmPrincipal.resources
 C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.Properties.Resources.resources
 C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.csproj.GenerateResource.Cache
+C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.FrmConsClientePessoaFisica.resources

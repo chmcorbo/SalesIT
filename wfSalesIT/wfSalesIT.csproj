@@ -49,6 +49,12 @@
   <ItemGroup>
     <Compile Include="Config.cs" />
     <Compile Include="ExClienteNaoEncontrado.cs" />
+    <Compile Include="FrmConsClientePessoaFisica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsClientePessoaFisica.Designer.cs">
+      <DependentUpon>FrmConsClientePessoaFisica.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmConsClientePessoaJuridica.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmConsClientePessoaFisica.resx">
+      <DependentUpon>FrmConsClientePessoaFisica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmConsClientePessoaJuridica.resx">
       <DependentUpon>FrmConsClientePessoaJuridica.cs</DependentUpon>
     </EmbeddedResource>

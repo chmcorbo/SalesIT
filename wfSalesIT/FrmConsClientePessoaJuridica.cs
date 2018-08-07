@@ -14,13 +14,13 @@ namespace wfSalesIT
 {
     public partial class FrmConsClientePessoaJuridica : Form
     {
-        private DALClientePessoaJuridica _dalClientePessoaFisica;
+        private DALClientePessoaJuridica _dalClientePessoaJuridica;
         private List<ClientePessoaJuridica> _listaClientes;
 
         public FrmConsClientePessoaJuridica()
         {
             InitializeComponent();
-            _dalClientePessoaFisica = new DALClientePessoaJuridica();
+            _dalClientePessoaJuridica = new DALClientePessoaJuridica();
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace wfSalesIT
             else if (cbTipoFiltro.SelectedItem.ToString()=="Nome")
             {
                 String _nome = txtConteudo.Text;
-                _listaClientes = _dalClientePessoaFisica.ListarPorNome(_nome);
+                _listaClientes = _dalClientePessoaJuridica.ListarPorNome(_nome);
                 dtgLista.DataSource = _listaClientes;
             }
             else if (cbTipoFiltro.SelectedItem.ToString() == "Código")
@@ -52,10 +52,13 @@ namespace wfSalesIT
                     // Varíavel a usada para tratamento de erro para proteger contra o erro do usuário informar um código inválido.
                     Int32 _codigo = Convert.ToInt32(txtConteudo.Text);
                     // Executando a consulta.
-                    _cliente = _dalClientePessoaFisica.ObterPorCodigo(_codigo);
+                    _cliente = _dalClientePessoaJuridica.ObterPorCodigo(_codigo);
                     // Se não retornar nenhum cliente, então eu vou lançar uma exceção para interceptar no catch.
                     if (_cliente == null)
-                        throw new ExClienteNaoEncontrado("Não foi possível encontrar nenhum cliente com o código informado.");
+                    {
+                        MessageBox.Show("Não possível encontrar nenhum registro");
+                    }
+                       
                     _listaClientes.Add(_cliente);
 
                 }
@@ -63,10 +66,6 @@ namespace wfSalesIT
                 {
                     MessageBox.Show("O código precisa conter números.", "Entrada inválida",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                catch (ExClienteNaoEncontrado ex)
-                {
-                    _listaClientes.Clear();
                 }
                 catch (Exception ex)
                 {
@@ -85,17 +84,8 @@ namespace wfSalesIT
                     // Varíavel a usada para tratamento de erro para proteger contra o erro do usuário informar um código inválido.
                     String _cnpj = txtConteudo.Text;
                     // Executando a consulta.
-                    _listaClientes = _dalClientePessoaFisica.ObterPorCNPJ(_cnpj);
+                    _listaClientes = _dalClientePessoaJuridica.ObterPorCNPJ(_cnpj);
                     dtgLista.DataSource = _listaClientes;
-                }
-                catch (FormatException ex)
-                {
-                    MessageBox.Show("O código precisa conter números.", "Entrada inválida",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                catch (ExClienteNaoEncontrado ex)
-                {
-                    _listaClientes.Clear();
                 }
                 catch (Exception ex)
                 {
@@ -111,9 +101,10 @@ namespace wfSalesIT
 
         private void FrmConsClientePessoaJuridica_Load(object sender, EventArgs e)
         {
+            // Põe o foco do curso na caixa de texto "conteúdo"
             this.ActiveControl = txtConteudo;
+            // Seleciona por padrão o tipo de filtro "nome"
             cbTipoFiltro.SelectedIndex = 0;
-            txtConteudo.Focus();
-        }
+       }
     }
 }
