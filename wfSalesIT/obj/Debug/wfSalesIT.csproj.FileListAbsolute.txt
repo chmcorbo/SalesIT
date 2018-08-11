@@ -49,3 +49,6 @@ C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.Frm
 C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.Properties.Resources.resources
 C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.csproj.GenerateResource.Cache
 C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.FrmConsClientePessoaFisica.resources
+C:\Users\hcorbo\Git\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.exe.config
+C:\Users\hcorbo\Git\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.exe
+C:\Users\hcorbo\Git\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.pdb

@@ -11,6 +11,16 @@ using System.Windows.Forms;
 namespace wfSalesIT
 {
     public partial class FrmConsClientePessoaFisica : Form
+
+        private DALClientePessoaFisica _dalClientePessoaFisica;
+        private List<ClientePessoaFisicaca> _listaClientes;
+
+        public FrmConsClientePessoaFisica()
+        {
+            InitializeComponent();
+            _dalClientePessoaFisica= new DALClientePessoaFisica();
+        }
+
     {
         public FrmConsClientePessoaFisica()
         {
