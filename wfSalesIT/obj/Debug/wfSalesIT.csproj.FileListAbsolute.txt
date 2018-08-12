@@ -52,3 +52,4 @@ C:\Users\hcorbo\Git\Projetos\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.FrmConsClient
 C:\Users\hcorbo\Git\SalesIT\wfSalesIT\bin\Debug\wfSalesIT.exe.config
 C:\Users\hcorbo\Git\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.exe
 C:\Users\hcorbo\Git\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\wfSalesIT\obj\Debug\wfSalesIT.FrmConsClientePessoaFisica.resources

@@ -34,9 +34,11 @@ namespace wfSalesIT
             _frmConsClientePessoaJuridica.ShowDialog();
         }
 
+
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FrmConsClientePessoaFisica _frmConsClientePessoaFisica = new FrmConsClientePessoaFisica();
+            _frmConsClientePessoaFisica.ShowDialog();
         }
              
     }

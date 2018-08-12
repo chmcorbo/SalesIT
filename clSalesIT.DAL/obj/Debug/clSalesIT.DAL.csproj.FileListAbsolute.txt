@@ -23,3 +23,10 @@ C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.DAL\obj\Debug\clSalesIT.DAL.dll
 C:\Users\hcorbo\Git\Projetos\SalesIT\clSalesIT.DAL\obj\Debug\clSalesIT.DAL.pdb
 C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.DAL\obj\Debug\clSalesIT.DAL.csprojResolveAssemblyReference.cache
 C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.DAL\obj\Debug\clSalesIT.DAL.dll
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.DAL\bin\Debug\clSalesIT.DAL.dll
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.DAL\bin\Debug\clSalesIT.DAL.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.DAL\bin\Debug\clSalesIT.Base.dll
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.DAL\bin\Debug\clSalesIT.Modelo.dll
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.DAL\bin\Debug\clSalesIT.Modelo.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.DAL\bin\Debug\clSalesIT.Base.pdb
+C:\Users\Camila Oliveira\Documents\git\salesit\clSalesIT.DAL\obj\Debug\clSalesIT.DAL.pdb
