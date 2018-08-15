@@ -28,3 +28,5 @@ C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\obj\Debug\caSalesIT.exe
 C:\Users\hcorbo\Git\Projetos\SalesIT\caSalesIT\obj\Debug\caSalesIT.pdb
 C:\Users\Camila Oliveira\Documents\git\salesit\caSalesIT\obj\Debug\caSalesIT.csprojResolveAssemblyReference.cache
 C:\Users\Camila Oliveira\Documents\git\salesit\caSalesIT\obj\Debug\caSalesIT.exe
+C:\Users\chmei\Documents\GitHub\SalesIT\caSalesIT\obj\Debug\caSalesIT.csprojResolveAssemblyReference.cache
+C:\Users\chmei\Documents\GitHub\SalesIT\caSalesIT\obj\Debug\caSalesIT.exe

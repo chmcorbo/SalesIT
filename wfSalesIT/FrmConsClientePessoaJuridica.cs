@@ -16,6 +16,7 @@ namespace wfSalesIT
     {
         private DALClientePessoaJuridica _dalClientePessoaJuridica;
         private List<ClientePessoaJuridica> _listaClientes;
+        private FrmCadClientePessoaJuridica frmCadClientePessoaJuridica = new FrmCadClientePessoaJuridica();
 
         public FrmConsClientePessoaJuridica()
         {
@@ -30,12 +31,12 @@ namespace wfSalesIT
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            if (cbTipoFiltro.SelectedItem==null)
+            if (cbTipoFiltro.SelectedItem == null)
             {
-                MessageBox.Show("Informe o tipo de filtro desejado.", "Entrada inválida", 
+                MessageBox.Show("Informe o tipo de filtro desejado.", "Entrada inválida",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (cbTipoFiltro.SelectedItem.ToString()=="Nome")
+            else if (cbTipoFiltro.SelectedItem.ToString() == "Nome")
             {
                 String _nome = txtConteudo.Text;
                 _listaClientes = _dalClientePessoaJuridica.ListarPorNome(_nome);
@@ -58,7 +59,7 @@ namespace wfSalesIT
                     {
                         MessageBox.Show("Não possível encontrar nenhum registro");
                     }
-                       
+
                     _listaClientes.Add(_cliente);
 
                 }
@@ -69,12 +70,12 @@ namespace wfSalesIT
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Erro durante a execução da consulta. "+ex.Message, "Entrada inválida",
+                    MessageBox.Show("Erro durante a execução da consulta. " + ex.Message, "Entrada inválida",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 finally
                 {
-                    dtgLista.DataSource = _listaClientes; 
+                    dtgLista.DataSource = _listaClientes;
                 }
             }
             else if (cbTipoFiltro.SelectedItem.ToString() == "CNPJ")
@@ -105,6 +106,33 @@ namespace wfSalesIT
             this.ActiveControl = txtConteudo;
             // Seleciona por padrão o tipo de filtro "nome"
             cbTipoFiltro.SelectedIndex = 0;
-       }
+        }
+
+        private void btnNovo_Click(object sender, EventArgs e)
+        {
+            frmCadClientePessoaJuridica.SetCodigo(0);
+            frmCadClientePessoaJuridica.SetStatus(0);
+            frmCadClientePessoaJuridica.ShowDialog();
+        }
+
+        private void dtgLista_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int _codigo = Convert.ToInt32(dtgLista.Rows[dtgLista.CurrentCell.RowIndex].Cells[0].Value);
+
+            if (dtgLista.Rows[dtgLista.CurrentCell.RowIndex].Cells[dtgLista.CurrentCell.ColumnIndex].Value.ToString() == "Alterar")
+            {
+                frmCadClientePessoaJuridica.SetStatus(1);
+                frmCadClientePessoaJuridica.ShowDialog();
+            }
+            else if (dtgLista.Rows[dtgLista.CurrentCell.RowIndex].Cells[dtgLista.CurrentCell.ColumnIndex].Value.ToString() == "Excluir")
+            {
+                if (MessageBox.Show("Tem certeza que deseja excluir este cliente?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    _dalClientePessoaJuridica.Excluir(_codigo);
+                    btnBuscar_Click(sender, e);
+                    MessageBox.Show("Cliente excluído com sucesso");
+                }
+            }
+        }
     }
 }
