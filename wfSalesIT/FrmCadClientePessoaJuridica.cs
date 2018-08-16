@@ -17,8 +17,7 @@ namespace wfSalesIT
         private byte _status;
         private int _codigo;
         private DALClientePessoaJuridica _dalClientePessoaJuridica;
-        /* 0 - novo, 1 - Alterar, 3 - Excluir */
-
+        /* 0 - novo, 1 - Alterar */
 
         public FrmCadClientePessoaJuridica()
         {
@@ -51,6 +50,16 @@ namespace wfSalesIT
         private void btnFechar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbStatus_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -16,6 +16,7 @@ namespace wfSalesIT
     {
         private DALClientePessoaFisica _dalClientePessoaFisica;
         private List<ClientePessoaFisica> _listaClientes;
+        private FrmCadClientePessoaFisica _frmCadClientePessoaFisica;
 
         public FrmConsClientePessoaFisica()
         {
@@ -90,6 +91,31 @@ namespace wfSalesIT
 
         }
 
+        private void dtglista_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            MessageBox.Show("Linha: " + dtglista.Rows[dtglista.CurrentCell.RowIndex].Cells[dtglista.CurrentCell.ColumnIndex].Value);
+            
+                
+        }
+
+        private void FrmConsClientePessoaFisica_Load(object sender, EventArgs e)
+        {
+            cbfiltro.SelectedIndex = 1;
+        }
+
+        private void btnNovo_Click(object sender, EventArgs e)
+        {
+            _frmCadClientePessoaFisica.SetCodigo(0);
+            _frmCadClientePessoaFisica.SetStatus(1);
+            _frmCadClientePessoaFisica.ShowDialog();
+
+
+        }
+
+        private void dtglista_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 
 }

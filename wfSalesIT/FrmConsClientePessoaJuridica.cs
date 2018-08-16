@@ -121,7 +121,8 @@ namespace wfSalesIT
 
             if (dtgLista.Rows[dtgLista.CurrentCell.RowIndex].Cells[dtgLista.CurrentCell.ColumnIndex].Value.ToString() == "Alterar")
             {
-                frmCadClientePessoaJuridica.SetStatus(1);
+                frmCadClientePessoaJuridica.SetStatus(1);// Status de alteração;
+                frmCadClientePessoaJuridica.SetCodigo(_codigo);
                 frmCadClientePessoaJuridica.ShowDialog();
             }
             else if (dtgLista.Rows[dtgLista.CurrentCell.RowIndex].Cells[dtgLista.CurrentCell.ColumnIndex].Value.ToString() == "Excluir")
