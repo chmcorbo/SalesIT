@@ -21,27 +21,19 @@ namespace wfSalesIT
         {
             InitializeComponent();
             DALClientePessoaFisica _dalClientePessoaFisica;
-
         }
 
         public void SetStatus(int pStatus)
-        {
+        { 
             _status = pStatus;
-        }
+        }   
 
         public void SetCodigo(int pCodigo)
         {
             _codigo = pCodigo;
         }
 
-
-
         private void btnSalvar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
         {
 
         }

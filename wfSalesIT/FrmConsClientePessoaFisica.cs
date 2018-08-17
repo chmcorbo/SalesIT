@@ -22,6 +22,7 @@ namespace wfSalesIT
         {
             InitializeComponent();
             _dalClientePessoaFisica = new DALClientePessoaFisica();
+            _frmCadClientePessoaFisica = new FrmCadClientePessoaFisica();
         }
 
         private void btnfechar_Click(object sender, EventArgs e)
@@ -35,7 +36,7 @@ namespace wfSalesIT
             {
                 MessageBox.Show("Selecione o filtro", "Entrada Inválida");
             }
-            else if (cbfiltro.SelectedItem == "Código")
+            else if (cbfiltro.SelectedIndex == 0) // Código
             {
                 try
                 {
@@ -52,7 +53,7 @@ namespace wfSalesIT
                 }
                 catch (FormatException ex)
                 {
-                    MessageBox.Show("O codigo precisa conter númeroS", "Entrada Inválida", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("O codigo precisa conter números", "Entrada Inválida", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 catch (Exception ex)
                 {
@@ -63,13 +64,13 @@ namespace wfSalesIT
                     dtglista.DataSource = _listaClientes;
                 }
             }
-            else if (cbfiltro.SelectedItem == "Nome")
+            else if (cbfiltro.SelectedIndex == 1) // Nome
             {
                 String _nome = txtconteudo.Text.ToUpper();
                 _listaClientes = _dalClientePessoaFisica.ListarPorNome(_nome);
                 dtglista.DataSource = _listaClientes;
             }
-            else if (cbfiltro.SelectedItem == "CPF")
+            else if (cbfiltro.SelectedIndex == 2) //cpf
             {
                 try
                 {
@@ -94,8 +95,6 @@ namespace wfSalesIT
         private void dtglista_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             MessageBox.Show("Linha: " + dtglista.Rows[dtglista.CurrentCell.RowIndex].Cells[dtglista.CurrentCell.ColumnIndex].Value);
-            
-                
         }
 
         private void FrmConsClientePessoaFisica_Load(object sender, EventArgs e)
@@ -106,16 +105,30 @@ namespace wfSalesIT
         private void btnNovo_Click(object sender, EventArgs e)
         {
             _frmCadClientePessoaFisica.SetCodigo(0);
-            _frmCadClientePessoaFisica.SetStatus(1);
+            _frmCadClientePessoaFisica.SetStatus(0);
             _frmCadClientePessoaFisica.ShowDialog();
-
-
         }
 
         private void dtglista_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            int _codigo = Convert.ToInt32(dtglista.Rows[dtglista.CurrentCell.RowIndex].Cells[0].Value);
 
+            if (dtglista.Rows[dtglista.CurrentCell.RowIndex].Cells[dtglista.CurrentCell.ColumnIndex].Value.ToString() == "Alterar")
+            {
+                _frmCadClientePessoaFisica.SetCodigo(0);
+                _frmCadClientePessoaFisica.SetStatus(1);
+                _frmCadClientePessoaFisica.ShowDialog();
+            }
+            else if (dtglista.Rows[dtglista.CurrentCell.RowIndex].Cells[dtglista.CurrentCell.ColumnIndex].Value.ToString() == "Excluir")
+            {
+                if (MessageBox.Show("Tem certeza que deseja excluir este cliente?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    _dalClientePessoaFisica.Excluir(_codigo);
+                    btnbuscar_Click(sender, e);
+                    MessageBox.Show("Cliente excluído com sucesso");
+
+                }
+            }
         }
     }
-
 }

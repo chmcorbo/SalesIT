@@ -241,7 +241,6 @@
             this.lbStatus.Size = new System.Drawing.Size(41, 13);
             this.lbStatus.TabIndex = 22;
             this.lbStatus.Text = "label11";
-            this.lbStatus.Click += new System.EventHandler(this.label11_Click);
             // 
             // FrmCadClientePessoaFisica
             // 
@@ -271,8 +270,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.btnSalvar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmCadClientePessoaFisica";
-            this.Text = "FrmCadClientePessoaFisica";
+            this.Text = "Cadastro de cliente pessoa física";
             this.Load += new System.EventHandler(this.FrmCadClientePessoaFisica_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

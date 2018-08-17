@@ -35,19 +35,22 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnbuscar = new System.Windows.Forms.Button();
             this.dtglista = new System.Windows.Forms.DataGridView();
+            this.clientePessoaFisicaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.btnfechar = new System.Windows.Forms.Button();
+            this.btnNovo = new System.Windows.Forms.Button();
             this.codigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cPFDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clientePessoaFisicaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.btnfechar = new System.Windows.Forms.Button();
-            this.btnNovo = new System.Windows.Forms.Button();
+            this.Alterar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Excluir = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dtglista)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientePessoaFisicaBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // cbfiltro
             // 
+            this.cbfiltro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbfiltro.FormattingEnabled = true;
             this.cbfiltro.Items.AddRange(new object[] {
             "Código",
@@ -69,6 +72,7 @@
             // 
             // txtconteudo
             // 
+            this.txtconteudo.BackColor = System.Drawing.Color.White;
             this.txtconteudo.Location = new System.Drawing.Point(139, 27);
             this.txtconteudo.Name = "txtconteudo";
             this.txtconteudo.Size = new System.Drawing.Size(278, 20);
@@ -85,7 +89,7 @@
             // 
             // btnbuscar
             // 
-            this.btnbuscar.Location = new System.Drawing.Point(423, 27);
+            this.btnbuscar.Location = new System.Drawing.Point(540, 27);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(75, 23);
             this.btnbuscar.TabIndex = 4;
@@ -103,15 +107,41 @@
             this.codigoDataGridViewTextBoxColumn,
             this.nomeDataGridViewTextBoxColumn,
             this.cPFDataGridViewTextBoxColumn,
-            this.estadoDataGridViewTextBoxColumn});
+            this.estadoDataGridViewTextBoxColumn,
+            this.Alterar,
+            this.Excluir});
             this.dtglista.DataSource = this.clientePessoaFisicaBindingSource;
             this.dtglista.Location = new System.Drawing.Point(15, 53);
             this.dtglista.Name = "dtglista";
             this.dtglista.ReadOnly = true;
-            this.dtglista.Size = new System.Drawing.Size(555, 304);
+            this.dtglista.Size = new System.Drawing.Size(686, 304);
             this.dtglista.TabIndex = 6;
             this.dtglista.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtglista_CellClick);
             this.dtglista.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtglista_CellContentClick);
+            // 
+            // clientePessoaFisicaBindingSource
+            // 
+            this.clientePessoaFisicaBindingSource.DataSource = typeof(clSalesIT.Model.ClientePessoaFisica);
+            // 
+            // btnfechar
+            // 
+            this.btnfechar.Location = new System.Drawing.Point(626, 373);
+            this.btnfechar.Name = "btnfechar";
+            this.btnfechar.Size = new System.Drawing.Size(75, 23);
+            this.btnfechar.TabIndex = 7;
+            this.btnfechar.Text = "fechar";
+            this.btnfechar.UseVisualStyleBackColor = true;
+            this.btnfechar.Click += new System.EventHandler(this.btnfechar_Click);
+            // 
+            // btnNovo
+            // 
+            this.btnNovo.Location = new System.Drawing.Point(621, 27);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(75, 23);
+            this.btnNovo.TabIndex = 8;
+            this.btnNovo.Text = "Novo";
+            this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // codigoDataGridViewTextBoxColumn
             // 
@@ -141,35 +171,27 @@
             this.estadoDataGridViewTextBoxColumn.Name = "estadoDataGridViewTextBoxColumn";
             this.estadoDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // clientePessoaFisicaBindingSource
+            // Alterar
             // 
-            this.clientePessoaFisicaBindingSource.DataSource = typeof(clSalesIT.Model.ClientePessoaFisica);
+            this.Alterar.HeaderText = "";
+            this.Alterar.Name = "Alterar";
+            this.Alterar.ReadOnly = true;
+            this.Alterar.Text = "Alterar";
+            this.Alterar.UseColumnTextForButtonValue = true;
             // 
-            // btnfechar
+            // Excluir
             // 
-            this.btnfechar.Location = new System.Drawing.Point(495, 373);
-            this.btnfechar.Name = "btnfechar";
-            this.btnfechar.Size = new System.Drawing.Size(75, 23);
-            this.btnfechar.TabIndex = 7;
-            this.btnfechar.Text = "fechar";
-            this.btnfechar.UseVisualStyleBackColor = true;
-            this.btnfechar.Click += new System.EventHandler(this.btnfechar_Click);
-            // 
-            // btnNovo
-            // 
-            this.btnNovo.Location = new System.Drawing.Point(495, 27);
-            this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(75, 23);
-            this.btnNovo.TabIndex = 8;
-            this.btnNovo.Text = "Novo";
-            this.btnNovo.UseVisualStyleBackColor = true;
-            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
+            this.Excluir.HeaderText = "";
+            this.Excluir.Name = "Excluir";
+            this.Excluir.ReadOnly = true;
+            this.Excluir.Text = "Excluir";
+            this.Excluir.UseColumnTextForButtonValue = true;
             // 
             // FrmConsClientePessoaFisica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(582, 408);
+            this.ClientSize = new System.Drawing.Size(708, 408);
             this.Controls.Add(this.btnNovo);
             this.Controls.Add(this.btnfechar);
             this.Controls.Add(this.dtglista);
@@ -200,11 +222,13 @@
         private System.Windows.Forms.Button btnbuscar;
         private System.Windows.Forms.DataGridView dtglista;
         private System.Windows.Forms.Button btnfechar;
+        private System.Windows.Forms.BindingSource clientePessoaFisicaBindingSource;
+        private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.DataGridViewTextBoxColumn codigoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cPFDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn estadoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource clientePessoaFisicaBindingSource;
-        private System.Windows.Forms.Button btnNovo;
+        private System.Windows.Forms.DataGridViewButtonColumn Alterar;
+        private System.Windows.Forms.DataGridViewButtonColumn Excluir;
     }
 }
