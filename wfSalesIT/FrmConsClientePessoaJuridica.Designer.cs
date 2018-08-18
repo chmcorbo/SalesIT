@@ -109,7 +109,7 @@
             // 
             // clientePessoaJuridicaBindingSource
             // 
-            this.clientePessoaJuridicaBindingSource.DataSource = typeof(clSalesIT.Model.ClientePessoaJuridica);
+            // this.clientePessoaJuridicaBindingSource.DataSource = typeof(clSalesIT.Model.ClientePessoaJuridica);
             // 
             // btnBuscar
             // 

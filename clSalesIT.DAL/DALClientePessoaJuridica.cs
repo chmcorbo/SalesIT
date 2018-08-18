@@ -116,7 +116,7 @@ namespace clSalesIT.DAL
 
         public Int32 ProximoCodigo()
         {
-           return _lstClientes.Max(c => c.Codigo);
+           return _lstClientes.Max(c => c.Codigo)+1;
         }
     }
 }

@@ -40,6 +40,15 @@ namespace wfSalesIT
             FrmConsClientePessoaFisica _frmConsClientePessoaFisica = new FrmConsClientePessoaFisica();
             _frmConsClientePessoaFisica.ShowDialog();
         }
-             
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+       
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

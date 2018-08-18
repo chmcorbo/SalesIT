@@ -16,12 +16,13 @@ namespace wfSalesIT
     {
         private DALClientePessoaJuridica _dalClientePessoaJuridica;
         private List<ClientePessoaJuridica> _listaClientes;
-        private FrmCadClientePessoaJuridica frmCadClientePessoaJuridica = new FrmCadClientePessoaJuridica();
+        private FrmCadClientePessoaJuridica frmCadClientePessoaJuridica;
 
         public FrmConsClientePessoaJuridica()
         {
             InitializeComponent();
             _dalClientePessoaJuridica = new DALClientePessoaJuridica();
+            frmCadClientePessoaJuridica = new FrmCadClientePessoaJuridica(_dalClientePessoaJuridica);
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
@@ -112,6 +113,7 @@ namespace wfSalesIT
         {
             frmCadClientePessoaJuridica.SetCodigo(0);
             frmCadClientePessoaJuridica.SetStatus(0);
+            
             frmCadClientePessoaJuridica.ShowDialog();
         }
 

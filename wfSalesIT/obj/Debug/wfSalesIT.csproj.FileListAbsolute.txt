@@ -90,3 +90,4 @@ C:\Projetos\GIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.FrmPrincipal.resources
 C:\Projetos\GIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.Properties.Resources.resources
 C:\Projetos\GIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.csproj.GenerateResource.Cache
 C:\Projetos\GIT\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.FrmCadClientePessoaFisica.resources
+C:\Users\chmei\Documents\GitHub\SalesIT\wfSalesIT\obj\Debug\wfSalesIT.FrmCadClientePessoaFisica.resources
