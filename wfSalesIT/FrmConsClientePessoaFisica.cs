@@ -94,7 +94,7 @@ namespace wfSalesIT
 
         private void dtglista_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            MessageBox.Show("Linha: " + dtglista.Rows[dtglista.CurrentCell.RowIndex].Cells[dtglista.CurrentCell.ColumnIndex].Value);
+            //MessageBox.Show("Linha: " + dtglista.Rows[dtglista.CurrentCell.RowIndex].Cells[dtglista.CurrentCell.ColumnIndex].Value);
         }
 
         private void FrmConsClientePessoaFisica_Load(object sender, EventArgs e)

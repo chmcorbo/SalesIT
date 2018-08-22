@@ -113,7 +113,6 @@ namespace wfSalesIT
         {
             frmCadClientePessoaJuridica.SetCodigo(0);
             frmCadClientePessoaJuridica.SetStatus(0);
-            
             frmCadClientePessoaJuridica.ShowDialog();
         }
 
