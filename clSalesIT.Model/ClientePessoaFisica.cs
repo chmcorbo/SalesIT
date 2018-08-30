@@ -10,5 +10,9 @@ namespace clSalesIT.Model
     {
         public Int32 Codigo { get; set; }
         public DateTime DataCadastro { get; set; }
+        public ClientePessoaFisica()
+        {
+            DataCadastro = DateTime.Now.Date;
+        }
     }
 }

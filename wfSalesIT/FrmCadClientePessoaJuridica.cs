@@ -35,7 +35,7 @@ namespace wfSalesIT
 
         public void SetStatus(byte pStatus)
         {
-            _status = pStatus; 
+            _status = pStatus;
         }
 
         public void SetCodigo(int pCodigo)
@@ -74,7 +74,7 @@ namespace wfSalesIT
                 return _dadosvalidos;
             }
 
-            if (txtNome.Text==String.Empty)
+            if (txtNome.Text == String.Empty)
             {
                 MessageBox.Show("Nome do cliente não informado", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return _dadosvalidos;
@@ -86,9 +86,9 @@ namespace wfSalesIT
                 return _dadosvalidos;
             }
 
-            if (_dataContratoSocial>=DateTime.Now.Date)
+            if (_dataContratoSocial >= DateTime.Now.Date)
             {
-                MessageBox.Show("A data do contrato social não pode ser maior que a data atual", 
+                MessageBox.Show("A data do contrato social não pode ser maior que a data atual",
                     "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return _dadosvalidos;
             }
@@ -99,7 +99,7 @@ namespace wfSalesIT
 
 
         private void TransferirParaObjeto()
-        {   
+        {
             _clientePessoaJuridica.Codigo = Convert.ToInt32(txtCodigo.Text);
             _clientePessoaJuridica.Nome = txtNome.Text;
             _clientePessoaJuridica.Endereco = txtEndereco.Text;
@@ -137,7 +137,7 @@ namespace wfSalesIT
             txtCNPJ.Clear();
             txtIncricaoEstadual.Clear();
             txtDataContratoSocial.Clear();
-            txtDataCadastro.Clear(); 
+            txtDataCadastro.Clear();
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
@@ -147,7 +147,7 @@ namespace wfSalesIT
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            if (_status==0)
+            if (_status == 0)
             {
                 if (ValidarDados())
                 {
@@ -156,7 +156,7 @@ namespace wfSalesIT
                     btnFechar_Click(sender, e);
                 }
             }
-            else if (_status==1)
+            else if (_status == 1)
             {
                 if (ValidarDados())
                 {
@@ -165,16 +165,6 @@ namespace wfSalesIT
                     btnFechar_Click(sender, e);
                 }
             }
-        }
-
-        private void lbStatus_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrmCadClientePessoaJuridica_Shown(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -136,6 +136,9 @@ namespace clSalesIT.DAL
                             select cliente).ToList<ClientePessoaFisica>();
             return _lstClientes;
         }
-
+        public int ProximoCodigo()
+        {
+            return _lstClientes.Max(c => c.Codigo) + 1;
+        }
     }
 }
