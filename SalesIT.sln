@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "caSalesIT", "caSalesIT\caSalesIT.csproj", "{50363421-854C-430B-A792-7BB16ED01177}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clSalesIT.Base", "SalesIT.Base\clSalesIT.Base.csproj", "{9FDF8629-A70F-4383-B7CF-29D73F36DF62}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clSalesIT.Model", "clSalesIT.Model\clSalesIT.Model.csproj", "{C33467E9-9238-4275-BC3E-BA08BE7A216A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wfAcessoDB", "wfAcessoDB\wfAcessoDB.csproj", "{7F8C7D15-319E-49C4-A8EF-8DD110595652}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C33467E9-9238-4275-BC3E-BA08BE7A216A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C33467E9-9238-4275-BC3E-BA08BE7A216A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C33467E9-9238-4275-BC3E-BA08BE7A216A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8C7D15-319E-49C4-A8EF-8DD110595652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8C7D15-319E-49C4-A8EF-8DD110595652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8C7D15-319E-49C4-A8EF-8DD110595652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8C7D15-319E-49C4-A8EF-8DD110595652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -108,6 +108,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
+    <None Include="packages.config" />
     <None Include="Properties\DataSources\clSalesIT.Model.ClientePessoaFisica.datasource" />
     <None Include="Properties\DataSources\clSalesIT.Model.ClientePessoaJuridica.datasource" />
     <None Include="Properties\Settings.settings">

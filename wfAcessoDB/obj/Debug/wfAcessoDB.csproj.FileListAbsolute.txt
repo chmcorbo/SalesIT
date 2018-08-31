@@ -1,0 +1,10 @@
+C:\Projetos\git\salesit\wfAcessoDB\bin\Debug\wfAcessoDB.exe.config
+C:\Projetos\git\salesit\wfAcessoDB\bin\Debug\wfAcessoDB.exe
+C:\Projetos\git\salesit\wfAcessoDB\bin\Debug\wfAcessoDB.pdb
+C:\Projetos\git\salesit\wfAcessoDB\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.csprojResolveAssemblyReference.cache
+C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.frmPrincipal.resources
+C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.Properties.Resources.resources
+C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.csproj.GenerateResource.Cache
+C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.exe
+C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.pdb
