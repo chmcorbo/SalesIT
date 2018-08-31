@@ -115,7 +115,7 @@ namespace wfSalesIT
 
             if (dtglista.Rows[dtglista.CurrentCell.RowIndex].Cells[dtglista.CurrentCell.ColumnIndex].Value.ToString() == "Alterar")
             {
-                _frmCadClientePessoaFisica.SetCodigo(0);
+                _frmCadClientePessoaFisica.SetCodigo(_codigo);
                 _frmCadClientePessoaFisica.SetStatus(1);
                 _frmCadClientePessoaFisica.ShowDialog();
             }

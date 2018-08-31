@@ -95,13 +95,13 @@ namespace wfSalesIT
         {
             txtCodigo.Text = Convert.ToString(_clientePessoaFisica.Codigo);
             txtNome.Text = _clientePessoaFisica.Nome;
-            txtDatadeNascimento.Text = Convert.ToString(_clientePessoaFisica.Data_Nascimento);
+            txtDatadeNascimento.Text = _clientePessoaFisica.Data_Nascimento.ToString("dd/MM/yyyy");
             txtEndereco.Text = _clientePessoaFisica.Endereco;
             txtBairro.Text = _clientePessoaFisica.Bairro;
             txtCidade.Text = _clientePessoaFisica.Cidade;
             txtEstado.Text = _clientePessoaFisica.Estado;
             txtCPF.Text = _clientePessoaFisica.CPF;
-            txtDataCadastro.Text = Convert.ToString(_clientePessoaFisica.DataCadastro);
+            txtDataCadastro.Text = _clientePessoaFisica.DataCadastro.ToString("dd/MM/yyyy");
         }
 
         private void LimparComponentes()
