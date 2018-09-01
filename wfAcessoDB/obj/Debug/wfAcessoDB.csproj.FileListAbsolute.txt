@@ -8,3 +8,15 @@ C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.Properties.Resources.res
 C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.csproj.GenerateResource.Cache
 C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.exe
 C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.pdb
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\bin\Debug\wfAcessoDB.exe.config
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.exe
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.pdb
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\bin\Debug\wfAcessoDB.exe
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\bin\Debug\wfAcessoDB.pdb
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.csprojResolveAssemblyReference.cache
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.frmPrincipal.resources
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.FrmMySQL.resources
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.Properties.Resources.resources
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.csproj.GenerateResource.Cache
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\bin\Debug\MySql.Data.dll
+C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.FrmConsultarFuncionario.resources
