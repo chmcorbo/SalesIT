@@ -12,7 +12,7 @@ namespace wfAcessoDB
 {
     public partial class FrmMySQL : Form
     {
-        private MySqlConnection _mySQLConnection = new MySqlConnection("server=localhost;database=salesit;uid=root;pwd=Nqbx2017#");
+        private MySqlConnection _mySQLConnection = new MySqlConnection("server=rjo-bcc-c2a-h14;database=salesit;uid=salesit_adm;pwd=salesit_adm");
 
         public FrmMySQL()
         {

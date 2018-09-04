@@ -1,7 +1,6 @@
 C:\Projetos\git\salesit\wfAcessoDB\bin\Debug\wfAcessoDB.exe.config
 C:\Projetos\git\salesit\wfAcessoDB\bin\Debug\wfAcessoDB.exe
 C:\Projetos\git\salesit\wfAcessoDB\bin\Debug\wfAcessoDB.pdb
-C:\Projetos\git\salesit\wfAcessoDB\bin\Debug\Oracle.ManagedDataAccess.dll
 C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.csprojResolveAssemblyReference.cache
 C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.frmPrincipal.resources
 C:\Projetos\git\salesit\wfAcessoDB\obj\Debug\wfAcessoDB.Properties.Resources.resources
@@ -20,3 +19,7 @@ C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.Properti
 C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.csproj.GenerateResource.Cache
 C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\bin\Debug\MySql.Data.dll
 C:\Users\chmei\Documents\GitHub\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.FrmConsultarFuncionario.resources
+C:\Projetos\GIT\SalesIT\wfAcessoDB\bin\Debug\MySql.Data.dll
+C:\Projetos\GIT\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.FrmConsultarFuncionario.resources
+C:\Projetos\GIT\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.FrmMySQL.resources
+C:\Projetos\GIT\SalesIT\wfAcessoDB\obj\Debug\wfAcessoDB.FrmConsDependenteFuncionario.resources

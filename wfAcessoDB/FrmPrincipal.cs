@@ -29,5 +29,11 @@ namespace wfAcessoDB
             _frmConsultarFuncionario.ShowDialog();
 
         }
+
+        private void btnConsultarDependente_Click(object sender, EventArgs e)
+        {
+            FrmConsDependenteFuncionario _frmConsDependenteFuncionario = new FrmConsDependenteFuncionario();
+            _frmConsDependenteFuncionario.ShowDialog();
+        }
     }
 }
